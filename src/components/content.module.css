@@ -1,5 +1,5 @@
 .conteiner {
-  width: 1000px;
+  max-width: 1000px;
   margin: 25px auto;
 }
 .movies {
