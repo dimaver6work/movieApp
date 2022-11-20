@@ -1,0 +1,72 @@
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  justify-content: space-around;
+}
+.movie {
+  position: relative;
+  margin-bottom: 100px;
+}
+.movieInner {
+  position: relative;
+  height: 370px;
+  width: 250px;
+}
+
+.movieCover {
+  height: 370px;
+  width: 250px;
+}
+.movieCoverDark {
+  background-color: black;
+  opacity: 0.1;
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.movieCoverDark:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+.movieinfo {
+  padding: 7px 0;
+}
+.movieTitle {
+  font-size: 20px;
+  color: white;
+}
+.movieCatagory {
+  font-size: 16px;
+  color: #ffd80e;
+}
+.movieAvarage {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 50%;
+  height: 36px;
+  width: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+  background-color: #1a191f;
+}
+
+.borderColorG {
+  border: 1px solid green;
+}
+.borderColorY {
+  border: 1px solid orange;
+}
+.borderColorR {
+  border: 1px solid red;
+}

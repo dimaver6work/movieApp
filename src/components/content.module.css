@@ -1,0 +1,10 @@
+.conteiner {
+  width: 1000px;
+  margin: 25px auto;
+}
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  justify-content: space-around;
+}

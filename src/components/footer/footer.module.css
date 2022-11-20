@@ -1,0 +1,21 @@
+.footer {
+  margin-top: 20px;
+  display: flex;
+  background-color: #222;
+  border-top: 3px solid #000;
+  height: 100px;
+  justify-content: center;
+}
+
+.pagination {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  color: white;
+  font-size: 30px;
+  margin: 15px;
+  background-color: rgb(46, 45, 45);
+  text-decoration: none;
+  padding-left: 15px;
+}
